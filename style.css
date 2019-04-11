@@ -1,0 +1,233 @@
+
+
+
+#logo {
+	font-family: Chump change;
+	letter-spacing: .7rem;
+	margin-left: 7%;	
+	font-size: 2.5em;
+	color: white;
+	padding-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+	font-family: Montserrat;
+}
+
+
+#footer{
+	background-color: black;
+	width: 100%;
+	height: 200px;
+	color: white;
+	font-family: Roboto;
+}
+
+#image {
+	width: 100%;	
+}
+#img {
+	height: 10%;
+}
+
+
+
+.menu {
+	list-style-type: none;	
+	padding: 0;
+	overflow: hidden;
+	display: block;
+	float: right;
+	margin: 30px 50px 75px 0;	
+}
+
+.menu li{
+  	float: left;
+  	font-family: Bebas Neue;
+	letter-spacing: .3rem;
+	margin-right: 100px;
+}
+
+#head {
+	border-top: 1px solid black;
+	width: 100%;
+	padding-top: 40px;
+
+}
+#main {
+
+}
+
+.menufocus {
+    display: inline-block;    
+    text-decoration: none;
+}
+
+.menufocus::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.menufocus:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.menufocus:hover {
+   background-color: black;
+}
+
+.menufocus1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.menufocus1:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.menufocus1:hover {
+   background-color: white;
+}
+
+
+.card {	
+	width: 27%;
+	padding: 40px;
+	position: relative;
+	display: inline-block;
+	
+}
+.card p {
+	font-family: Montserrat;
+	text-align: center;
+}
+
+.card h1 {
+	font-family: Roboto;
+	text-align: center;
+}
+
+.nome {
+	font-family: Chump Change;
+	letter-spacing: .7rem;	
+	font-size: 2.5em;
+	color: white;
+	background-color: black;
+	padding: 9px 12px;
+}
+
+.divcentral {
+	text-align: center;		
+}
+
+.divcentral p {
+	font-family: Montserrat
+}
+
+.divcentral a {
+	font-family: Montserrat;
+	font-size: 1.5em;
+	padding-top: 50px;
+}
+
+.divcentral h1 {
+	font-family: Montserrat;
+	letter-spacing: .4rem;
+	padding-bottom: 30px;	
+}
+
+.divcenter {
+	margin: auto;
+	width: 50%;
+}
+
+
+.cardimage {
+	display: block;
+ 	margin-left: 15%;
+ 	margin-right: auto;
+  	width: 38%;
+  	
+}
+
+.cardaux {
+	
+	text-align: center;
+	margin-left: 57%;
+	margin-right: auto;
+	width: 30%;
+	display: inline-block;
+	position: absolute;
+	
+
+	
+}
+
+.container {
+	display: flex;
+	margin-bottom: 70px;
+}
+
+table {
+	margin-bottom: 30px;
+	margin: auto;
+	width: 100%;
+	
+	padding: 40px;
+
+}
+
+table td, th {
+	text-align: -webkit-auto;
+	font-size: large;
+	
+}
+
+.divcenter1 {
+	margin: auto;
+	width: 80%;
+}
+
+.divcenter1  table{
+	margin: 0px 0 80px 0;
+
+
+}
+
+.social {
+	width: 64px;
+	height: 64px;
+}
+
+.redessociais {
+	list-style: none;
+	display: block;
+	overflow: hidden;
+}
+
+.redessociais li {
+	float: left;
+	margin-top: 10px;
+	
+
+}
+
+
